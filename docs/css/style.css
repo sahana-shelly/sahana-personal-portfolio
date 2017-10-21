@@ -1,0 +1,896 @@
+/* ----------------------------------
+sahanashelly-personal-portfolio
+Version: 0.1
+Author: sahana shelly
+
+-------------------------------------
+
+Table of contents
+
+	01. Main Styles
+	02. Typography
+	03. Header
+	04. About 
+	05. Service
+    06. work
+    07.Blog
+	8. Contact
+	9. Footer
+
+*/
+
+/* ===================================
+   01. Main Styles
+====================================== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.marg{
+    overflow: hidden;
+}
+.mrg{
+    margin-top: 20px;
+}
+/* ===================================
+    02. Typography
+====================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:'Montserrat',sans-serif;
+}
+
+/* ===================================
+    03. header-area
+====================================== */
+#header{
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+.top-menu{
+}
+.navbar-inverse {
+    background-color:transparent; 
+    border-color: transparent;
+}
+.logo a {
+    font-size: 28px;
+    color: #ffffff;
+ font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 74px;
+}
+.top-menu ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px;
+    line-height: 50px;
+}
+.top-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 80px;
+    margin-right: 12px;
+}
+a{
+    color: #ffffff;
+}
+a:hover{
+    color: #ffffff;
+}
+.cp-btns.active {
+    color: #888888;
+}
+.filter-btns.active{
+    color: #000;
+    text-decoration: line-through;
+}
+
+/* ===================================
+         home-area
+====================================== */
+#home{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#headerContent {
+    width: 100%;
+    height:80%;
+    overflow: hidden;
+}
+video {
+
+    position: inherit;
+    min-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.home-text{
+    position: absolute;
+    text-align: center;
+    display: inline;
+    color: white;
+    top:0;
+    max-width: 100%;
+    width: 100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin-top: -403px;
+    line-height: 50px;
+    z-index: 1;
+
+}
+.home-text h1{
+    font-weight: bold;
+    max-width: 100%;
+    font-size:60px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.home-text p{
+    color: #DDDDDD;
+    font-size: 16px;
+}
+.icon a{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+#header.positionFixed {
+    position: fixed;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color:black;
+    color: #fff;
+    height: 74px;
+    z-index: 9999;
+}
+/* ===================================
+            04.about-area
+====================================== */
+.about-area{
+    margin-top: 70px;
+}
+.about-img{
+    max-width: 100%;
+    margin-top: 30px;
+}
+.about-area h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-area h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 55px;
+}
+.about-area p{
+    font-size:13px;
+    line-height:2em;
+    color: #555555;
+}
+.button{
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 30px;
+}
+.button:hover{
+    background-color: #888888;
+    color: #ffffff;
+}
+/* ===================================
+            .my-skill 
+====================================== */
+.my-skill {
+    margin-top: 70px;
+}
+.my-skill h1{
+   text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-skill h3 {
+    font-weight: 700px;
+    font-size: 24px;
+}
+.my-skill p {
+    font-size:14px;
+    word-wrap: break-word;
+    line-height:2em;
+    color: #555555;
+}
+.skill-progress{
+    margin-top: 30px;
+}
+.progress {
+    height: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    text-align: center;
+    background-color: #333333;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.progress-icon{
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.progress-icon ul li span{
+    color: black;
+    font-size: 16px;
+    padding: 0;
+    list-style: none;
+}
+.progress-icon ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 5px;
+}
+.progress-icon ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+}
+.progress-icon ul li a i{
+    background-color: black;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.progress-icon ul li a i:hover{
+    background-color: #333333;
+}
+/* service area  css start */
+#service {
+    margin-top: 70px;
+    background-color: #F6F6F6;
+    max-width: 100%;
+    min-height: auto;
+    padding-bottom: 70px;
+}
+#service h1 {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 70px;
+}
+.box{
+    background-color: #ffffff;
+    height: 280px;
+    margin-top: 30px;
+}
+.box i{
+    margin-left: 40%;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background 1s linear;
+}
+.box h3{
+    text-align: center;
+    font-weight:bold;
+}
+.box p{
+    line-height: 2em;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #555555;
+}
+.box i:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.box:hover{
+    border-style: thin;
+    border-bottom: 5px solid #000000;
+    transition: background 1s linear;
+}
+/* ===================================
+    05. service-area
+====================================== */
+/*  service client css start */
+.service-area{
+  
+}
+.service-client{
+    background-color:#4c4c4c;
+    padding-top: 50px;
+    max-width: 100%;
+    min-height: 100%;
+    padding-bottom: 70px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 36px;
+    margin-top:0px;
+}
+.service-client i{
+    font-size: 36px;
+    padding-top: 33px;
+}
+.service-client p{
+    font-size: 22px;
+}
+.service-client h3{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ===================================
+            service-term
+====================================== */
+.service-term{
+    margin-top: 70px;
+}
+.service-term h1{
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:30x;
+    font-family: 'Montserrat', sans-serif;
+}
+.term-img {
+    width: 100%;
+    height:auto;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+.social-icon {
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top:80%;
+    transition: top .5s ease;
+    color: white;
+    opacity: 0;
+    padding-top: 155px;
+}
+.term-img:hover .social-icon{
+    top:0;
+    opacity:1;
+}
+.name{
+    text-align: center;
+}
+.name h4{
+    color:white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.name span{
+    color:#dadbda;
+    margin-bottom: 20px;
+}
+.name p {
+    padding: 5px;
+    font-size: 12px;
+    line-height: 2em;
+}
+.term-icons{
+    display: inline-block;
+    margin: 0 auto;
+}
+.term-icons ul li{
+    list-style:none;
+    float: left;
+}
+.term-icons ul li a {
+
+}
+.term-icons ul li a i{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-right: 12px;
+    padding-top: 9px;
+    font-size: 16px;
+    transition: background 1s linear;
+}
+.term-icons ul li a i:hover{
+    background-color: #888888;
+}
+font-awesome.min.css:4
+.f
+/* ===================================
+    06. work-area
+====================================== */
+.work-area{
+    margin-top: 70px;
+}
+.work-area h1{
+   text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+#filters-ul-outer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#filters-ul-outer ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+#filters-ul-outer ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #A5A5A5;
+    margin: 5px;
+    position: relative;
+}
+.photo-grid {
+    margin: 1em auto;
+    text-align: center;
+}
+.photo-grid .grid-item {
+    border: 5px solid white;
+    display: inline-block;
+    margin:-5px;
+}
+.photo-grid img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.photo-grid figure {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.photo-grid figcaption {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    display: table;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+.photo-grid figcaption p {
+    display: table-cell;
+    font-size: 1.5em;
+    position: relative;
+    top: -40px;
+    vertical-align: middle;
+}
+.photo-grid .grid-item:hover figcaption {
+    opacity: 1;
+}
+.photo-grid img {
+    display: block;
+    height: auto;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    max-width:100%;
+}
+.photo-grid .grid-item:hover img {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    transform: scale(1.4);
+}
+.photo-grid figcaption .box2 {
+    display: table-cell;
+    font-size: 1.5em;
+    position: relative;
+    top: -40px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    vertical-align: middle;
+}
+.photo-grid .grid-item:hover figcaption .box2 {
+    -moz-transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+}
+.photo-grid figcaption {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    display: table;
+    height:233px;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    transition-delay: 100ms;
+    z-index: 100;
+}
+.unassign {
+    width: 35%;
+    display:inline-block;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 15px;
+    cursor: pointer;
+}
+.assign {
+    width: 35%;
+    display:inline-block;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 10px;
+    cursor: pointer;
+}
+.link {
+    text-align: center;
+}
+.link a i{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    border-radius:37px;
+    padding-top:15px;
+    font-size: 16px;
+}
+.text{
+
+}
+.text h5{
+    color: black;
+    padding-left: 30px;
+}
+.text span{
+    color: white;
+}
+/* ===================================
+    work-serach area
+====================================== */
+
+.work-serach{
+    margin-top: 70px;
+    background-color: #f7f7f7;
+    padding-top:50px;
+    padding-bottom: 80px;
+}
+.work-serach h5{
+    font-size: 14px;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+}
+.work-serach h3{
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-group-addon{
+    padding: 6px 70px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+}
+.input-group-addon a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.input-group-addon:hover{
+    background-color: #888888;
+}
+/* ===================================
+   work-testimonial
+====================================== */
+
+.work-testimonial h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.owl-carousel .owl-item img {
+    display: block;
+    margin: 0 auto;
+    /* width: 100%:*/
+}
+.work-image{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.test-paragrap {
+    background-color: #f3f3f3;
+    padding: 20px;
+    color: #555555;
+    width: 52em;
+    font-size: 14px;
+    line-height: 2em;
+    max-width: 100%;
+    min-height: 100%;
+    text-align: center;
+    text-align-last: center;
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.test h3{
+    text-align: center;
+    font-weight: bold;
+}
+/* ===================================
+  07.blog-area
+====================================== */
+
+.blog-area{
+    margin-top: 70px;
+}
+.blog-area h1{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blog-area h3{
+    font-weight: 700px;
+    font-size: 17px;
+    color: black;
+    font-family: Montserrat,sans-serif;
+    padding-left:10px;
+
+}
+.blog-area h3:hover{
+    color: #555555;
+}
+.blog-area p{
+    font-size: 12px;
+    line-height: 2em;
+    color: #555555;
+    padding-left: 15px;
+}
+.blog-img{
+    width:100%;
+    height: auto;
+    margin-top: 20px;
+}
+.button1 {
+    width: 120px;
+    height: 35px;
+    /* padding: 10px 0px; */
+    padding-top: 7px;
+    text-align: center;
+    background-color: #f3f3f3;
+    color: #000000;
+    border-radius: 10px;
+    padding-left: 0px;
+    margin-left: 10px;
+    transition: 1s linear;
+}
+.button1 a {
+    text-decoration: none;
+    color: #000000;
+    line-height:20px;
+    margin-top: 2px;
+    color: #8e8e8e;
+}
+.button1 a i{
+    color: #8e8e8e;
+    margin: 2px;
+}
+.button1:hover{
+    background-color: black;
+    color:#ffffff;
+}
+.button1 a:hover{
+    color:white;
+}
+/* ===================================
+  08.contact-area
+====================================== */
+
+.contact-area{
+    background-color: #f7f7f7;
+    margin-top: 70px;
+}
+.contact-area h1{
+    font-weight: bold;
+    font-size:40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 50px; 
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #b3b3b3;
+    background-color: #eeeeee;
+    background-image: none;
+    border:0;
+    border-radius:0;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+*:focus {
+    outline: 0;
+}
+textarea.form-control {
+    height: auto;
+    margin-top: 8px;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-color: black;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 37px;
+    border: 0;
+    transition: background 0.2s linear;
+}
+button, html input[type=button], input[type=reset], input[type=submit]:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+}
+.form a:hover{
+    background-color:#ffffff;
+    color: black;
+    border: 1px solid black;
+}
+/* ===================================
+  09.footer-area
+====================================== */
+.footer{
+    text-align: center;
+    padding-top: 61px;
+    padding-right:0px;
+    border-top: 1px solid #888888;
+}
+.footer-icon i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #888888;
+    color: black;
+    padding-top: 10px;
+    padding-left:2px;
+}
+.footer h2{
+    font-size: 16px;
+    line-height: 33px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-icon i:hover{
+    background-color: black;
+    color: #ffffff;
+    transition: background 1s linear;
+}
+.backtotop_button_wrap {
+    width:100%;
+    background:white;
+    height:auto;
+}
+#toTop {
+    display:none;
+    position: fixed; 
+    right:0;
+    bottom:0;
+    width:100px; 
+    height:auto; 
+    float:right;
+    padding:10px;
+    text-align:center;
+    line-height:12px;
+}
+#toTop i{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 22px;
+    background-color: #888888;
+}
+.footer-area{
+    text-align:center;
+    border-top:1px solid black;
+}

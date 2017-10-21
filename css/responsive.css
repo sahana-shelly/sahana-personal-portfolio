@@ -1,0 +1,92 @@
+
+@media all and (min-width: 960px) and (max-width: 1199px) { 
+.social-icon {
+    padding-top: 80px;
+}
+.photo-grid figcaption .box2 {
+    top: -105px;
+}
+}
+@media all and (min-width: 768px) and (max-width: 959px) {
+.term-img {
+    margin-bottom: -20px;
+}
+.social-icon {
+    padding-top: 270px;
+}
+.work-area h1 {
+    margin-top: 70px;
+}
+.photo-grid figcaption .box2 {
+    top: -64px;
+}
+.col-sm-offset-2 {
+     width: 73%;
+}
+}
+@media all and (min-width: 480px) and (max-width: 767px){
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    margin-top: 20px;
+}
+.navbar-inverse {
+    background-color:#222222; 
+    border-color: transparent;
+}
+.home-text h1 {
+    font-size: 56px;
+}
+ .social-icon {
+    padding-top: 609px;
+}
+.photo-grid figcaption {
+    height: 377px;
+    }
+.photo-grid figcaption .box2 {
+    top: -69px;
+}
+}
+
+/* contact form */
+@media all and (max-width:640px){
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    margin-top: 20px;
+}
+.navbar-inverse {
+    background-color:#222222; 
+    border-color: transparent;
+}
+.social-icon {
+    padding-top: 415px;
+}
+.photo-grid figcaption .box2 {
+    top: -103px;
+}
+}
+
+@media all and (max-width: 599px) {
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    margin-top: 20px;
+}
+.navbar-inverse {
+    background-color:#222222; 
+    border-color: transparent;
+}
+.home-text p {
+    padding: 10px;
+}
+.social-icon {
+    padding-top: 297px;
+}
+}
+@media all and (max-width: 479px) {
+ .social-icon {
+    padding-top: 180px;
+ 
+}
+@media all and (max-width:320px) {
+
+    
+}
